@@ -37,7 +37,7 @@
         <sling.user>admin</sling.user>
         <sling.password>W$$devAdm!n112</sling.password>
         <vault.user>admin</vault.user>
-        <vault.password>admin</vault.password>
+        <vault.password>W$$devAdm!n112</vault.password>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
