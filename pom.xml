@@ -203,8 +203,7 @@
                         <targetURL>http://10.90.20.205:4502/crx/packmgr/service.jsp</targetURL>
                         <failOnError>true</failOnError>
                         <failOnMissingEmbed>true</failOnMissingEmbed>
-						<useProxy>false</useProxy>
-                    </configuration>
+	                   </configuration>
                 </plugin>
                 <!-- Apache Felix Bundle Plugin -->
                 <plugin>
