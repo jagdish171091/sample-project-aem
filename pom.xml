@@ -204,8 +204,6 @@
                         <failOnError>true</failOnError>
                         <failOnMissingEmbed>true</failOnMissingEmbed>
 						<useProxy>false</useProxy>
-                        <userId>admin</userId>
-                        <password>W$$devAdm!n112</password>
                     </configuration>
                 </plugin>
                 <!-- Apache Felix Bundle Plugin -->
