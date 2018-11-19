@@ -30,14 +30,14 @@
     </modules>
 
     <properties>
-        <aem.host>10.90.20.205</aem.host>
+        <aem.host>localhost</aem.host>
         <aem.port>4502</aem.port>
         <aem.publish.host>localhost</aem.publish.host>
         <aem.publish.port>4503</aem.publish.port>
         <sling.user>admin</sling.user>
-        <sling.password>W$$devAdm!n112</sling.password>
+        <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
-        <vault.password>W$$devAdm!n112</vault.password>
+	<vault.password>admin</vault.password>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -200,7 +200,7 @@
                     <artifactId>content-package-maven-plugin</artifactId>
                     <version>0.5.1</version>
                     <configuration>
-                        <targetURL>http://10.90.20.205:4502/crx/packmgr/service.jsp</targetURL>
+			    <targetURL>http://localhost:4502/crx/packmgr/service.jsp</targetURL>
                         <failOnError>true</failOnError>
                         <failOnMissingEmbed>true</failOnMissingEmbed>
 	                   </configuration>
